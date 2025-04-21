@@ -8,7 +8,7 @@ export const useCreateUser = () => {
   const { invalidateQuery } = useReactQueryHelpers();
 
   return useMutation({
-    mutationFn: (newUser: Omit<Users, 'id'>) => createUser(newUser),
+    mutationFn: (newUser: Users) => createUser(newUser),
     onSuccess: () => {
       invalidateQuery(['users-list']);
     },

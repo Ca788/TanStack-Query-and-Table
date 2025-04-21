@@ -10,6 +10,7 @@ export const UserList = () => {
 
   const handleCreateUser = () => {
     createUser({
+      id: 20,
       name: "Juninho da padaria",
       email: "junin@example.com",
       phone: "+55 11 99999-9999",

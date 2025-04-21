@@ -76,6 +76,17 @@
       "role": "user",
       "isActive": true,
       "createdAt": "2025-04-21T21:14:44.017Z"
+    },
+    {
+      "id": 20,
+      "name": "Juninho da padaria",
+      "email": "junin@example.com",
+      "phone": "+55 11 99999-9999",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+      "birthDate": "2000-01-01",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2025-04-21T22:39:54.280Z"
     }
   ]
 }
