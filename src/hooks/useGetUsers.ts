@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { getUsers } from "../gateway/getUsers.ts";
+import { getUsers } from "../gateways/getUsers.ts";
 
 export const useGetUsers = (options = { enabled: true }) => {
   return useQuery({
