@@ -4,8 +4,8 @@ export interface Users {
     email: string;
     phone: string;
     avatar: string;
-    birthdate: string;
-    roles: string;
+    birthDate: string;
+    role: string;
     isActive: boolean;
     createdAt: string;
 }

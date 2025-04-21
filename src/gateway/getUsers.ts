@@ -4,10 +4,10 @@ import { URL } from "../env/url.ts";
 
 
 export const getUsers = async (): Promise<Users[]> => {
-        await sleep();
-        const response = await fetch(`${URL}/users`);
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
+  await sleep();
+  const response = await fetch(`${URL}/users`);
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.json();
 }

@@ -6,7 +6,6 @@
       "email": "alice.souza@example.com",
       "phone": "+55 11 91234-5678",
       "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
-      "passwordHash": "$2b$10$KIX2oG/1FQ4K2Yb1wZmX6uJh7xWIzNv9ZiNpqz7FGe5PWhz7eRc5a",
       "birthDate": "1990-05-10",
       "role": "admin",
       "isActive": true,
@@ -18,7 +17,6 @@
       "email": "bruno.oliveira@example.com",
       "phone": "+55 21 99876-5432",
       "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
-      "passwordHash": "$2b$10$VLPpAvY9sJdNTL/ZGh0OWeBi9YiHhS6UbvlRxRl3JtH4LvMBj9jiK",
       "birthDate": "1987-08-22",
       "role": "user",
       "isActive": true,
@@ -30,7 +28,6 @@
       "email": "carla.mendes@example.com",
       "phone": "+55 31 92345-6789",
       "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
-      "passwordHash": "$2b$10$UhX2jdD9NcV.ZqqlIyxOweuP5P8OCWzStAw3ozgQf0MIu3u5RgMqO",
       "birthDate": "1992-03-18",
       "role": "moderator",
       "isActive": false,
@@ -42,7 +39,6 @@
       "email": "daniel.ribeiro@example.com",
       "phone": "+55 41 93456-7890",
       "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
-      "passwordHash": "$2b$10$T2WnqMZt.qXx0HYYU3GVru/Nd6Shh7ctQ9GV0wEMMf5P9slbMJ7Ya",
       "birthDate": "1985-12-02",
       "role": "user",
       "isActive": true,
@@ -54,11 +50,32 @@
       "email": "eduarda.lima@example.com",
       "phone": "+55 51 98765-4321",
       "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
-      "passwordHash": "$2b$10$Z83uVdnXrK0nSPcXxSjdIuOjM3NVtzCXT7GJZWwH4EOsKx9cdZbV6",
       "birthDate": "1994-10-27",
       "role": "admin",
       "isActive": false,
       "createdAt": "2025-03-19T13:20:00Z"
+    },
+    {
+      "id": "cd09",
+      "name": "Novo Usuário",
+      "email": "novo.usuario@example.com",
+      "phone": "+55 11 99999-9999",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+      "birthDate": "2000-01-01",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2025-04-21T21:14:27.300Z"
+    },
+    {
+      "id": "e42a",
+      "name": "Novo Usuário",
+      "email": "novo.usuario@example.com",
+      "phone": "+55 11 99999-9999",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+      "birthDate": "2000-01-01",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2025-04-21T21:14:44.017Z"
     }
   ]
 }
